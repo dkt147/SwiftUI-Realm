@@ -60,8 +60,9 @@ struct Signup: View {
                 .background(lightGray)
                 .cornerRadius(5.0)
                 .foregroundColor(.black)
+          
             
-           
+
             
            
             Button{

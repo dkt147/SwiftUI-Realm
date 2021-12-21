@@ -35,7 +35,7 @@ struct AddTasks: View {
                     realmManager.addTask(taskTitle: title)
                  
                 }
-                print("kajhsdjhasdhjashdjka")
+                
                  dismiss()
             }label:{
                 Text("Add task")

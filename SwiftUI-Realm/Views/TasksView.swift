@@ -19,21 +19,25 @@ struct TasksView: View {
             List{
                 ForEach(realmManager.tasks , id : \.id){
                     task in
-                    TasksRow(task: task.title, status: task.status)
-                        .onTapGesture {
-                            realmManager.updateTasks(id: task.id, status: !task.status)
-                        }
-                        .swipeActions(edge: .trailing)
-                    {
-                        Button(role:.destructive)
+                    if !task.isInvalidated{
+                        TasksRow(task: task.title, status: task.status)
+                            .onTapGesture {
+                                realmManager.updateTasks(id: task.id, status: !task.status)
+                            }
+                            .swipeActions(edge: .trailing)
                         {
-                            realmManager.deleteTasks(id: task.id)
-                        }label:
-                        {
-                            Label("Delete", systemImage: "trash")
+                            Button(role:.destructive)
+                            {
+                                realmManager.deleteTasks(id: task.id)
+                            }label:
+                            {
+                                Label("Delete", systemImage: "trash")
+                            }
+                            
                         }
-                        
                     }
+                    
+                       
                 }
             }
             .onAppear{
