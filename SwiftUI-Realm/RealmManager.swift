@@ -89,8 +89,9 @@ class RealmManager: ObservableObject{
                 
                 try localRealm.write{
                     localRealm.delete(deleteTask)
-                    getTasks()
+                    
                     print("Deleted task successfully")
+                    getTasks()
                 }
             }catch{
                 print("Error in deleting task")
