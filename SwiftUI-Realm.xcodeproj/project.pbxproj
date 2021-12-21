@@ -18,6 +18,8 @@
 		7919846E2771C5BA00201EFE /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7919846D2771C5BA00201EFE /* RealmSwift */; };
 		791984702771C5F600201EFE /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919846F2771C5F600201EFE /* RealmManager.swift */; };
 		791984722771C73800201EFE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791984712771C73800201EFE /* Task.swift */; };
+		791984742771D68F00201EFE /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791984732771D68F00201EFE /* Login.swift */; };
+		791984762771D69800201EFE /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791984752771D69800201EFE /* Signup.swift */; };
 		796D6FE02770D2EF0018ECB4 /* SwiftUI_RealmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D6FDF2770D2EF0018ECB4 /* SwiftUI_RealmApp.swift */; };
 		796D6FE22770D2EF0018ECB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D6FE12770D2EF0018ECB4 /* ContentView.swift */; };
 		796D6FE42770D2F10018ECB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796D6FE32770D2F10018ECB4 /* Assets.xcassets */; };
@@ -55,6 +57,8 @@
 		791984682771BE9F00201EFE /* PlusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusButton.swift; sourceTree = "<group>"; };
 		7919846F2771C5F600201EFE /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		791984712771C73800201EFE /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		791984732771D68F00201EFE /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		791984752771D69800201EFE /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 		796D6FDC2770D2EF0018ECB4 /* SwiftUI-Realm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Realm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		796D6FDF2770D2EF0018ECB4 /* SwiftUI_RealmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_RealmApp.swift; sourceTree = "<group>"; };
 		796D6FE12770D2EF0018ECB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				796D6FE12770D2EF0018ECB4 /* ContentView.swift */,
 				791984602771B79D00201EFE /* TasksView.swift */,
 				791984662771BABA00201EFE /* AddTasks.swift */,
+				791984732771D68F00201EFE /* Login.swift */,
+				791984752771D69800201EFE /* Signup.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -415,11 +421,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				791984722771C73800201EFE /* Task.swift in Sources */,
+				791984762771D69800201EFE /* Signup.swift in Sources */,
 				796D6FE22770D2EF0018ECB4 /* ContentView.swift in Sources */,
 				791984672771BABA00201EFE /* AddTasks.swift in Sources */,
 				791984612771B79D00201EFE /* TasksView.swift in Sources */,
 				796D6FE02770D2EF0018ECB4 /* SwiftUI_RealmApp.swift in Sources */,
 				791984652771B7FC00201EFE /* TasksRow.swift in Sources */,
+				791984742771D68F00201EFE /* Login.swift in Sources */,
 				791984702771C5F600201EFE /* RealmManager.swift in Sources */,
 				791984692771BE9F00201EFE /* PlusButton.swift in Sources */,
 			);
